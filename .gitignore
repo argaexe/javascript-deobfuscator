@@ -119,3 +119,5 @@ web
 .pnp.*
 
 .DS_STORE
+
+.vs

@@ -3,9 +3,28 @@
 A simple but powerful deobfuscator to remove common JavaScript obfuscation techniques.
 Open an issue if there is a feature you think should be implemented.
 
-Online version at [deobfuscate.io](https://deobfuscate.io)
+Install via `npm install sp-js-deobfuscator`
+Original version: Online version at [deobfuscate.io](https://deobfuscate.io)
 
-Install via `npm install js-deobfuscator`
+## How to build & run
+
+### Requirements
+
+- Node.JS
+- Git
+- Typescript:
+  npm install typescript
+
+### Build
+```bash
+cd javascript-deobfuscator
+npm install typescript
+npm run prepare
+```
+
+### Running the command-line tool
+
+npm run start -- --input examples/example1.obfuscated.js --output examples/example1.deobfuscated.js
 
 ## Features
 
@@ -259,10 +278,10 @@ interface Config {
 
 ## To Run
 
-Either install the module locally via `npm install js-deobfuscator` and import as usual or install globally `npm install -g js-deobfuscator` and use the `js-deobfuscator` CLI:
+Either install the module locally via `npm install sp-js-deobfuscator` and import as usual or install globally `npm install -g sp-js-deobfuscator` and use the `sp-js-deobfuscator` CLI:
 
 ```shell
-> js-deobfuscator -h
+> sp-js-deobfuscator -h
 Usage: run [options]
 
 Deobfuscate a javascript file
