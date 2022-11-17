@@ -1,9 +1,9 @@
 # General purpose JavaScript deobfuscator
 
-A simple but powerful deobfuscator to remove common JavaScript obfuscation techniques.
+A simple but powerful deobfuscator to remove common JavaScript obfuscation techniques. 
 Open an issue if there is a feature you think should be implemented.
 
-Install via `npm install sp-js-deobfuscator`
+Install via `npm install sp-js-deobfuscator` 
 Original version: Online version at [deobfuscate.io](https://deobfuscate.io)
 
 ## How to build & run
@@ -287,12 +287,20 @@ Usage: run [options]
 Deobfuscate a javascript file
 
 Options:
-  -i, --input [input_file]    The input file to deobfuscate (default: "input/source.js")
-  -o, --output [output_file]  The deobfuscated output file (default: "output/output.js")
-  -f, --force                 Whether to overwrite the output file or not
-  -h, --help                  display help for command
+  -i, --input [input_file]                                     The input file to deobfuscate (default: "input/source.js")
+  -o, --output [output_file]                                   The deobfuscated output file (default: "output/output.js")
+  -v, --verbose [verbose]                                      Verbose mode (default: "1")
+  -aunpack, --unpack-arrays [unpack_arrays]                    Unpack arrays (default: "1")
+  -arem, --remove-arrays [remove_arrays]                       Remove arrays (default: "1")
+  -prepl, --replace-proxy-functions [replace_proxy_functions]  Replace proxy functions (default: "1")
+  -prem, --remove-proxy-functions [remove_proxy_functions]     Remove proxy functions (default: "1")
+  -simpl, --simplify-expressions [simplify_expressions]        Simplify expressions (default: "1")
+  -remdead, --remove-dead-branches [remove_dead_branches]      Remove dead branches (default: "1")
+  -renhex, --rename-hex-identifiers [rename_hex_identifiers]   Rename hex identifiers (default: "1")
+  -beauty, --beautify [beautify]                               Beautify the code (default: "1")
+  -psimpl, --simplify-properties [simplify_properties]         Simplify properties (default: "1")
+  -h, --help
 
->
 ```
 
 Alternatively use the online version at [deobfuscate.io](https://deobfuscate.io)
