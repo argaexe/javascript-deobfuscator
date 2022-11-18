@@ -287,20 +287,20 @@ Usage: run [options]
 Deobfuscate a javascript file
 
 Options:
-  -i, --input [input_file]                                     The input file to deobfuscate (default: "input/source.js")
-  -o, --output [output_file]                                   The deobfuscated output file (default: "output/output.js")
-  -v, --verbose [verbose]                                      Verbose mode (default: "1")
-  -aunpack, --unpack-arrays [unpack_arrays]                    Unpack arrays (default: "1")
-  -arem, --remove-arrays [remove_arrays]                       Remove arrays (default: "1")
-  -prepl, --replace-proxy-functions [replace_proxy_functions]  Replace proxy functions (default: "1")
-  -prem, --remove-proxy-functions [remove_proxy_functions]     Remove proxy functions (default: "1")
-  -simpl, --simplify-expressions [simplify_expressions]        Simplify expressions (default: "1")
-  -remdead, --remove-dead-branches [remove_dead_branches]      Remove dead branches (default: "1")
-  -renhex, --rename-hex-identifiers [rename_hex_identifiers]   Rename hex identifiers (default: "1")
-  -beauty, --beautify [beautify]                               Beautify the code (default: "1")
-  -psimpl, --simplify-properties [simplify_properties]         Simplify properties (default: "1")
-  -h, --help
-
+  -i, --input <input_file>                 The input file to deobfuscate
+  -o, --output [output_file]               The deobfuscated output file
+  -v, --verbose [1|0]                      Verbose mode (default: "1")
+  -off, --off                              Turn off all functions (by default all functions are turned on)
+  -aunpack, --unpack-arrays [1|0]          Unpack arrays
+  -arem, --remove-arrays [1|0]             Remove arrays
+  -prepl, --replace-proxy-functions [1|0]  Replace proxy functions
+  -prem, --remove-proxy-functions [1|0]    Remove proxy functions
+  -simpl, --simplify-expressions [1|0]     Simplify expressions
+  -remdead, --remove-dead-branches [1|0]   Remove dead branches
+  -renhex, --rename-hex-identifiers [1|0]  Rename hex identifiers
+  -beauty, --beautify [1|0]                Beautify the code
+  -psimpl, --simplify-properties [1|0]     Simplify properties
+  -h, --help                               display help for command
 ```
 
 Alternatively use the online version at [deobfuscate.io](https://deobfuscate.io)
