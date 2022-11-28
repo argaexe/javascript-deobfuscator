@@ -80,8 +80,6 @@ var config = {
     }
 };
 
-console.log(config);
-
 const output = deobfuscate(source, config);
 fs.writeFileSync(outputFile, output);
 console.info(`The output file ${outputFile} has been created`);

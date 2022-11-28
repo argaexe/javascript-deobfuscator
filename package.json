@@ -1,6 +1,6 @@
 {
     "name": "sp-js-deobfuscator",
-    "version": "1.0.20",
+    "version": "1.0.22",
     "description": "",
     "main": "dist/index.js",
     "bin": {
@@ -19,8 +19,8 @@
         "estraverse": "^4.2.0",
         "shift-ast": "^6.1.0",
         "shift-validator": "^5.0.1",
-        "sp-shift-codegen": "^8.0.0",
-        "sp-shift-parser": "^8.0.0",
+        "sp-shift-codegen": "^8.0.1",
+        "sp-shift-parser": "^8.0.1",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
