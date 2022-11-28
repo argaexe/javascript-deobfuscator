@@ -3,7 +3,7 @@
 A simple but powerful deobfuscator to remove common JavaScript obfuscation techniques. 
 Open an issue if there is a feature you think should be implemented.
 
-Install via `npm install sp-js-deobfuscator` 
+Installation via `npm install sp-js-deobfuscator` 
 
 ## How to build & run
 
@@ -23,7 +23,17 @@ npm run prepare
 
 ### Running the command-line tool
 
+```shell
+# To test current version of sp-js-deobfuscator 
 npm run start -- --input examples/example1.obfuscated.js --output examples/example1.deobfuscated.js
+```
+
+or 
+
+```shell
+# To test installed version of sp-js-deobfuscator
+npx sp-js-deobfuscator -i obfuscated.js
+```
 
 ## Features
 
@@ -280,7 +290,8 @@ interface Config {
 Either install the module locally via `npm install sp-js-deobfuscator` and import as usual or install globally `npm install -g sp-js-deobfuscator` and use the `sp-js-deobfuscator` CLI:
 
 ```shell
-> sp-js-deobfuscator -h
+> npx sp-js-deobfuscator -h
+
 Usage: run [options]
 
 Deobfuscate a javascript file
