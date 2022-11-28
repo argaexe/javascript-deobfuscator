@@ -4,7 +4,6 @@ A simple but powerful deobfuscator to remove common JavaScript obfuscation techn
 Open an issue if there is a feature you think should be implemented.
 
 Install via `npm install sp-js-deobfuscator` 
-Original version: Online version at [deobfuscate.io](https://deobfuscate.io)
 
 ## How to build & run
 
@@ -302,5 +301,3 @@ Options:
   -psimpl, --simplify-properties [1|0]     Simplify properties
   -h, --help                               display help for command
 ```
-
-Alternatively use the online version at [deobfuscate.io](https://deobfuscate.io)

@@ -1,7 +1,7 @@
 import * as Shift from 'shift-ast';
 import { v4 as uuid } from 'uuid';
 import { traverse } from '../../helpers/traverse';
-import { codeGen } from 'shift-codegen';
+import { codeGen } from 'sp-shift-codegen';
 import TraversalHelper from '../../helpers/traversalHelper';
 
 export default class ExecutedFunction {

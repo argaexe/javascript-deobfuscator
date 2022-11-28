@@ -1,1 +1,1 @@
-declare module 'shift-parser';
+declare module 'sp-shift-parser';

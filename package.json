@@ -18,9 +18,9 @@
         "commander": "^9.4.0",
         "estraverse": "^4.2.0",
         "shift-ast": "^6.1.0",
-        "shift-codegen": "github:Stanislav-Povolotsky/javascript-deobfuscator--shift-codegen-js",
-        "shift-parser": "^7.0.3",
         "shift-validator": "^5.0.1",
+        "sp-shift-codegen": "^8.0.0",
+        "sp-shift-parser": "^8.0.0",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
@@ -28,7 +28,7 @@
         "@types/node": "^14.14.22",
         "@types/uuid": "^8.3.3",
         "ts-loader": "^8.0.14",
-        "typescript": "^4.1.3",
+        "typescript": "^4.9.3",
         "webpack": "^5.17.0",
         "webpack-cli": "^4.4.0"
     }
