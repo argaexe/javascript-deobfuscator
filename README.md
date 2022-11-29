@@ -11,13 +11,11 @@ Installation via `npm install sp-js-deobfuscator`
 
 - Node.JS
 - Git
-- Typescript:
-  npm install typescript
 
 ### Build
 ```bash
 cd javascript-deobfuscator
-npm install typescript
+npm install
 npm run prepare
 ```
 
